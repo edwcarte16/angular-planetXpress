@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AACA,wBAAwB;AACxB,AAAA,UAAU,CAAA;EACN,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,IAAI;CACd;;AACD,AAAA,OAAO,CAAA;EACH,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,IAAI;CACd;;AACD,AAAA,EAAE,CAAA;EACE,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,GAAG;EACd,gBAAgB,EEXX,OAAO;EFYZ,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,SAAS;EAClB,KAAK,EEbI,IAAI;EFcb,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "app.component.scss",
+        "components/_mixin.scss",
+        "components/_colors.scss"
+    ],
+    "names": [],
+    "file": "app.component.css"
+}

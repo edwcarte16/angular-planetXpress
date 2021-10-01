@@ -1,0 +1,9 @@
+@import "../colors";
+@import "../mixin";
+
+footer{
+    height: 120px;
+    @include flex(center);
+    background-color: $colorPrimary;
+    color: $colorWhite;
+}

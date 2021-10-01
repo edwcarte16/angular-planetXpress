@@ -1,0 +1,20 @@
+<div class="cardContainer">
+    <div class="card" *ngFor="let info of info">
+        <img src={{info.img}} alt="">
+        <div class="information">
+            <h3>{{info.title}}</h3>
+            <span class="cost">{{info.cost}}</span>
+            <p>{{info.description}}</p>
+            <h4>Descripción</h4>
+    
+            <ul>
+                <li>{{info.cpu}}</li>
+                <li>{{info.board}}</li>
+                <li>{{info.ram}}</li>
+                <li>{{info.gpu}}</li>
+                <li>{{info.storage}}</li>
+            </ul>
+        </div>
+        <a class="buy" href="">Agregar al carrito</a>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+@import "colors";
+
+@mixin flex($align){
+    display: flex;
+    justify-content: $align;
+    align-items: center;
+}
+
+@mixin grid($min){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+}
+
+@mixin list{
+    ul{
+        @include flex(center);
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@mixin box{
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px #00000031;
+    background-color: $colorCard;
+}
+
+@mixin border($border) {
+    @if $border == "top" {
+        border-top: solid 1px $colorBorder;
+    }
+    @if $border == "left" {
+        border-left: solid 1px $colorBorder;
+    }
+    @if $border == "right" {
+        border-right: solid 1px $colorBorder;
+    }
+    @if $border == "bottom" {
+        border-bottom: solid 1px $colorBorder;
+    }
+    @if $border == "all" {
+        border: solid 1px $colorBorder;
+    }
+}

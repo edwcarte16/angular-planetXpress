@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./app/components/colors";
+@import "./app/components/colors";
+@import "./app/components/fonts";
+@import "./app/components/mixin";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "planet";
+}
+
+body {
+  position: relative;
+  background-color: $colorBg;
+}

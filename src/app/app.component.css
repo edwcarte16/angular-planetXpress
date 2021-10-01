@@ -1,0 +1,31 @@
+/*@import "../colors";*/
+app-header {
+  position: fixed;
+  width: 100%;
+}
+
+.banner {
+  padding-top: 70px;
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+  font-size: 3em;
+  background-color: #44ad8a;
+  text-align: center;
+  padding: 20px 10px;
+  color: #fff;
+  margin-top: -4px;
+}
+
+app-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=app.component.css.map */
