@@ -8,10 +8,9 @@ import { Component, OnInit } from '@angular/core';
 
 export class HeaderComponent implements OnInit {
 options = [
-  {element: "Computadoras", href: "https://www.facebook.com"},
-  {element: "Celulares", href: "https://www.pinterest.com"},
-  {element: "Autos", href: "https://www.google.com"},
-  {element: "Aviones", href: "https://www.edwinsuesca.com"}
+  {element: "Login", routerLink: "/login"},
+  {element: "Administrador", routerLink: "/admin"},
+  {element: "Productos", routerLink: "/products"}
 ]
   constructor() { }
 

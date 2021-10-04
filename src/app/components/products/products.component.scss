@@ -1,0 +1,108 @@
+@import "../mixin";
+@import "../colors";
+
+.mainContainer{
+    @include flex(center);
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    padding-top: $navHeight;
+
+    app-aside{
+        position: sticky;
+        top: $navHeight;
+    }
+}
+@import "../media";
+
+.cardContainer{
+    @include grid(230px);
+    width: 100%;
+    width: calc(100% - 270px);
+    max-width: 1200px;
+    padding: 20px;
+    gap: 20px;
+    align-content: center;
+    .card{
+        @include flex(center);
+        @include box;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+        img{
+            margin-top: 20px;
+            width: 85%;
+        }
+
+        .information{
+            width: 100%;
+            padding: 15px;
+            background-color: $colorGray12;
+            display: grid;
+            gap: 10px;
+
+            h3{
+                color: $color1;
+                font-weight:600;
+                font-size: 1.3em;
+            }
+            .cost{
+                font-weight: 800;
+                color: $color1;
+                font-size: 1.3em;
+            }
+
+            p{
+                color: $colorGray3;
+                font-size: 0.9em;
+            }
+
+            h4{
+                @include flex(center);
+                @include border(top);
+                padding-top: 10px;
+                margin: 5px 0;
+                color: $color1;
+                font-weight:600;
+                font-size: 1em;
+            }
+
+            ul{
+                width: 100%;
+                display: grid;
+                gap: 10px;
+                li{
+                    list-style: none;
+                    font-size: 0.7em;
+                    color: $colorGray3;
+                }
+                li::before{
+                    content: "►";
+                    color: $color2;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .buy{
+            @include flex(center);
+            text-decoration: none;
+            color: $colorGray12;
+            font-size: 1.2em;
+            width: 100%;
+            padding: 10px;
+            background-color: $color1;            
+            border-radius: 0 0 15px 15px;
+            text-transform: uppercase;
+        }
+
+        .buy:hover{
+            background-color: $color2;
+        }
+    }
+
+    .card:hover{
+        background: linear-gradient($colorGray12, $color1);
+    }
+}

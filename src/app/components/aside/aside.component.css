@@ -1,6 +1,9 @@
 /*******************Colors*******************/
 /*******************Alpha*******************/
 /*******************GrayScale*******************/
+/*******************Colors*******************/
+/*******************Alpha*******************/
+/*******************GrayScale*******************/
 @font-face {
   font-family: planet;
   src: url(../../assets/fonts/Montserrat/Montserrat-Thin.ttf);
@@ -127,22 +130,31 @@
   font-weight: 900;
 }
 
-/*******************Colors*******************/
-/*******************Alpha*******************/
-/*******************GrayScale*******************/
-app-header {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
+.container {
+  background-color: #303030;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 15px #00000031;
+          box-shadow: 7px 7px 15px #00000031;
+  background-color: #ffffff;
+  max-height: calc(100vh - 50px);
+  width: 270px;
+  padding: 20px 0;
+  overflow: auto;
 }
 
-h1 {
-  width: 100%;
-  font-size: 3em;
-  background-color: #d1564c;
-  text-align: center;
-  padding: 20px 10px;
-  color: #303030;
-  margin-top: -4px;
+.container h2 {
+  color: #21333f;
+  font-size: 1em;
+  padding: 0 20px 10px 20px;
+  border-bottom: solid 1px #d9d9d9;
 }
-/*# sourceMappingURL=app.component.css.map */
+
+.container div {
+  padding: 10px 15px;
+}
+
+.container div p {
+  font-size: 0.8em;
+  color: #555555;
+}
+/*# sourceMappingURL=aside.component.css.map */

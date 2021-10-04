@@ -2,12 +2,21 @@
 @import "../mixin";
 nav{
     width: 100%;
-    height: 70px;
+    height: $navHeight;
     padding: 0 30px;
-    background-color: $colorPrimary;
+    background-color: $color1;
     @include flex(space-between);
     .logo{
         @include flex(space-between);
+        height: 100%;
+        img{
+            height: 60%;
+        }
+        h1{
+            color: $colorGray12;
+            font-size: 1.1em;
+            margin-left: 10px;
+        }
     }
     @include list;
     ul{
@@ -15,13 +24,15 @@ nav{
         gap: 20px;
         li{
             a{
-                color: $colorWhite;
+                color: $colorGray12;
+                font-size: 0.87em;
+                font-weight: 600;
             }
         }
 
         li:hover{
             a{
-                color:$colorSecondary;
+                color:$colorGray12;
             }
         }
     }

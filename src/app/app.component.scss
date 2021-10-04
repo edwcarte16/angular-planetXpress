@@ -1,24 +1,18 @@
-@import "./components/mixin";
-/*@import "../colors";*/
+@import "../app/components/mixin";
+@import "../app/components/colors";
+
 app-header{
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
-.banner{
-    padding-top: 70px;
-    width: 100%;
-}
+
 h1{
     width: 100%;
     font-size: 3em;
-    background-color: $color3;
+    background-color: $color2;
     text-align: center;
     padding: 20px 10px;
-    color: $colorWhite;
+    color: $colorGray1;
     margin-top: -4px;
-}
-app-card{
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }

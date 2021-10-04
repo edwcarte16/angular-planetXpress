@@ -1,0 +1,93 @@
+@import "../colors";
+@import "../mixin";
+@import "../media";
+@import "../fonts";
+@import "../elements";
+
+.mainContainer{
+    height: 100vh;
+    padding-top: $navHeight;
+    @include flex(space-between);
+
+    .ilustration{
+        height: 100vh;
+    }
+
+    .cajaInicioSesion{
+        position: absolute;
+        @include flex(center);
+        flex-direction: column;
+        height: 100%;
+        right: 0;
+        width: 100%;
+        max-width: 800px;
+
+        .inicioSesion{
+            @include flex(center);
+            @include box;
+            flex-direction: column;
+            width: 100%;
+            max-width: 500px;
+            background-color: $colorGray12;
+            padding: 30px;
+            gap: 40px;
+
+            .title{@include flex(center);
+                flex-direction: column;
+                .logo{
+                    path{
+                        fill: $color1;
+                    }
+                }
+                h2{
+                    margin-top: 10px;
+                    color: $color1;
+                    font-size: 2.3em;
+                }
+            }
+
+            p{
+                color: $colorGray4;
+            }
+
+            form{
+                @include forms(light);
+                @include flex(center);
+                flex-direction: column;
+                @include buttons;
+                gap: 15px;
+                height: fit-content;
+                width: 100%;
+                
+                .passContainer{
+                    @include flex(space-between);
+                    width: 80%;
+                    .remember{
+                        @include flex(space-between);
+                        input{
+                            margin: 7px;
+                            width: auto;
+                        }
+                        span{
+                            font-size: 0.8em;
+                            color: $colorGray5;
+                        }
+                    }
+
+                    .forgetPass{
+                        font-size: 0.8em;
+                        color: $color1;
+                        cursor: pointer;
+                    }
+                }
+
+                .actionsContainer{
+                    @include flex(space-between);
+                    width: 70%;
+                    margin-top: 30px;
+                    min-width: 250px;
+                }
+            }
+        }
+    }
+}

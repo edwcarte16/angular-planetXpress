@@ -1,7 +1,37 @@
-$colorPrimary: #23587B;
-$colorSecondary: #80ED99;
-$color3: #44ad8a;
-$colorWhite: #fff;
-$colorCard: white;
-$colorBg: #f6f6f6;
-$colorBorder: #dedede;
+/*******************Colors*******************/
+
+$color1: #9a56ff;
+$color2: #d1564c;
+$color3: #21333f;
+
+/*******************Alpha*******************/
+$alfa1: '17';
+$alfa2: '37';
+$alfa3: 'b7';
+
+$color1A1: (#{$color1+$alfa1});
+$color2A1: (#{$color2+$alfa1});
+$color3A1: (#{$color3+$alfa1});
+
+$color1A2: (#{$color1+$alfa2});
+$color2A2: (#{$color2+$alfa2});
+$color3A2: (#{$color3+$alfa2});
+
+$color1A3: (#{$color1+$alfa3});
+$color2A3: (#{$color2+$alfa3});
+$color3A3: (#{$color3+$alfa3});
+
+/*******************GrayScale*******************/
+
+$colorGray1: #303030;
+$colorGray2: #424242;
+$colorGray3: #555555;
+$colorGray4: #686868;
+$colorGray5: #7b7b7b;
+$colorGray6: #8e8e8e;
+$colorGray7: #a0a0a0;
+$colorGray8: #b3b3b3;
+$colorGray9: #c6c6c6;
+$colorGray10: #d9d9d9;
+$colorGray11: #ececec;
+$colorGray12: #ffffff;

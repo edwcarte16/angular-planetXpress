@@ -2,9 +2,10 @@
     <nav>
         <div class="logo">
             <img src="../../../assets/img/logo-planet.svg" alt="">
+            <h1>PlanetXpress</h1>
         </div>
         <ul>
-            <li *ngFor="let option of options"><a href={{option.href}} target="_blank">{{option.element}}</a></li>
+            <li *ngFor="let option of options"><a routerLink={{option.routerLink}}>{{option.element}}</a></li>
         </ul>
     </nav>
 </div>

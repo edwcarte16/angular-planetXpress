@@ -1,0 +1,14 @@
+@media (max-width: 700px) {
+  .mainContainer {
+    app-aside {
+      position: absolute;
+      top: 0;
+      left: -270px;
+      transition: left 0.7s ease-in-out;
+    }
+
+    app-products {
+      width: 100%;
+    }
+  }
+}

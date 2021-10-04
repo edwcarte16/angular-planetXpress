@@ -130,19 +130,7 @@
 /*******************Colors*******************/
 /*******************Alpha*******************/
 /*******************GrayScale*******************/
-app-header {
-  position: fixed;
-  width: 100%;
-  z-index: 2;
+.mainContainer {
+  padding-top: 50px;
 }
-
-h1 {
-  width: 100%;
-  font-size: 3em;
-  background-color: #d1564c;
-  text-align: center;
-  padding: 20px 10px;
-  color: #303030;
-  margin-top: -4px;
-}
-/*# sourceMappingURL=app.component.css.map */
+/*# sourceMappingURL=admin.component.css.map */

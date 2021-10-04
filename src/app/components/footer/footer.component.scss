@@ -2,8 +2,8 @@
 @import "../mixin";
 
 footer{
-    height: 120px;
+    height: $footerHeight;
     @include flex(center);
-    background-color: $colorPrimary;
-    color: $colorWhite;
+    background-color: $color1;
+    color: $colorGray1;
 }

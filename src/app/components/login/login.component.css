@@ -1,0 +1,529 @@
+/*******************Colors*******************/
+/*******************Alpha*******************/
+/*******************GrayScale*******************/
+/*******************Colors*******************/
+/*******************Alpha*******************/
+/*******************GrayScale*******************/
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Black.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ThinItalic.ttf);
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf);
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-LightItalic.ttf);
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Italic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-MediumItalic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf);
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-BlackItalic.ttf);
+  font-style: italic;
+  font-weight: 900;
+}
+
+@media (max-width: 700px) {
+  .mainContainer app-aside {
+    position: absolute;
+    top: 0;
+    left: -270px;
+    -webkit-transition: left 0.7s ease-in-out;
+    transition: left 0.7s ease-in-out;
+  }
+  .mainContainer app-products {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Black.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ThinItalic.ttf);
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf);
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-LightItalic.ttf);
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Italic.ttf);
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-MediumItalic.ttf);
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf);
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-BoldItalic.ttf);
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: planet;
+  src: url(../../assets/fonts/Montserrat/Montserrat-BlackItalic.ttf);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.mainContainer {
+  height: 100vh;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContainer .ilustration {
+  height: 100vh;
+}
+
+.mainContainer .cajaInicioSesion {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  right: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 15px #00000031;
+          box-shadow: 7px 7px 15px #00000031;
+  background-color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 30px;
+  gap: 40px;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion .title .logo path {
+  fill: #9a56ff;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion .title h2 {
+  margin-top: 10px;
+  color: #9a56ff;
+  font-size: 2.3em;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion p {
+  color: #686868;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input,
+.mainContainer .cajaInicioSesion .inicioSesion form select,
+.mainContainer .cajaInicioSesion .inicioSesion form textarea {
+  background-color: #ececec;
+  color: #9a56ff;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input::-webkit-input-placeholder, .mainContainer .cajaInicioSesion .inicioSesion form textarea::-webkit-input-placeholder {
+  color: #8e8e8e;
+  font-size: 1rem;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input:-ms-input-placeholder, .mainContainer .cajaInicioSesion .inicioSesion form textarea:-ms-input-placeholder {
+  color: #8e8e8e;
+  font-size: 1rem;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input::-ms-input-placeholder, .mainContainer .cajaInicioSesion .inicioSesion form textarea::-ms-input-placeholder {
+  color: #8e8e8e;
+  font-size: 1rem;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input::placeholder, .mainContainer .cajaInicioSesion .inicioSesion form textarea::placeholder {
+  color: #8e8e8e;
+  font-size: 1rem;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input, .mainContainer .cajaInicioSesion .inicioSesion form select, .mainContainer .cajaInicioSesion .inicioSesion form textarea {
+  border-radius: 50px;
+  border: none;
+  padding: 8px 15px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form textarea {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form option, .mainContainer .cajaInicioSesion .inicioSesion form select {
+  border: none;
+  padding: 8px 10px;
+  font-size: 1rem;
+  margin: 10px;
+  width: 100%;
+  font-family: planet, montserrat, sans-serif;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form input:focus, .mainContainer .cajaInicioSesion .inicioSesion form select:focus, .mainContainer .cajaInicioSesion .inicioSesion form textarea:focus {
+  outline: none;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .buttonFill {
+  padding: 7px 15px;
+  background-color: #9a56ff;
+  border: solid 1px #9a56ff;
+  color: white;
+  border-radius: 50px;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .buttonBorder {
+  padding: 7px 15px;
+  background-color: white;
+  border: solid 1px #9a56ff;
+  color: #9a56ff;
+  border-radius: 50px;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .buttonFill:hover {
+  background-color: white;
+  border: solid 1px #9a56ff;
+  color: #9a56ff;
+  cursor: pointer;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .buttonBorder:hover {
+  background-color: #9a56ff;
+  border: solid 1px #9a56ff;
+  color: white;
+  cursor: pointer;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .passContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .passContainer .remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .passContainer .remember input {
+  margin: 7px;
+  width: auto;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .passContainer .remember span {
+  font-size: 0.8em;
+  color: #7b7b7b;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .passContainer .forgetPass {
+  font-size: 0.8em;
+  color: #9a56ff;
+  cursor: pointer;
+}
+
+.mainContainer .cajaInicioSesion .inicioSesion form .actionsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin-top: 30px;
+  min-width: 250px;
+}
+/*# sourceMappingURL=login.component.css.map */

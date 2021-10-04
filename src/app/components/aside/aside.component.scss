@@ -1,0 +1,24 @@
+@import "../colors";
+@import "../mixin";
+
+.container{
+    background-color: $colorGray1;
+    @include box;
+    max-height: $asideHeigt;
+    width: 270px;
+    padding: 20px 0;
+    overflow: auto;
+    h2{
+        color: $color3;
+        font-size: 1em;
+        padding: 0 20px 10px 20px;
+        @include border(bottom);
+    }
+    div{
+        padding: 10px 15px;
+        p{
+            font-size: 0.8em;
+            color: $colorGray3;
+        }
+    }
+}

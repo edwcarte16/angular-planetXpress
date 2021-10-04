@@ -2,15 +2,22 @@
 @import "./app/components/colors";
 @import "./app/components/fonts";
 @import "./app/components/mixin";
+@import "./app/components/elements";
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "planet";
+  @include buttons;
+}
+
+*::selection{
+  background-color: $color1;
+  color: $colorGray12;
 }
 
 body {
   position: relative;
-  background-color: $colorBg;
+  background-color: $colorGray11;
 }
